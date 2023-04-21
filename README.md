@@ -2,17 +2,21 @@
 
 ## Description
 
-This app was created to help users find pokemon characters and their details. The app is built with React and uses the [PokeAPI](https://pokeapi.co/) to fetch data.
+This app was created to help users find pokemon characters and their details. The app is built with React and uses the [PokeAPI](https://pokeapi.co/) to fetch data. App lists the first 151 pokemons.
 
-## Screenshots of App
+## Product Image
+
+<img width="1243" alt="Screenshot 2023-04-21 at 22 49 55" src="https://user-images.githubusercontent.com/30843706/233740641-597fd139-244b-45d4-bbec-a8c808a06d97.png">
+
+<img width="214" alt="Screenshot 2023-04-21 at 22 57 26" src="https://user-images.githubusercontent.com/30843706/233740827-8223c22f-8a87-4521-a5f6-0f00be3ec582.png">
 
 ## Technologies used
 
--- JavaScript
--- React
--- CSS
--- HTML
--- PokeAPI
+`--JavaScript`
+`-- React`
+`-- CSS`
+`-- HTML`
+`-- PokeAPI`
 
 ## Installation
 
