@@ -1,7 +1,18 @@
-# PokeDex App 
+# PokeDex App
 
 ## Description
+
 This app was created to help users find pokemon characters and their details. The app is built with React and uses the [PokeAPI](https://pokeapi.co/) to fetch data.
+
+## Screenshots of App
+
+## Technologies used
+
+-- JavaScript
+-- React
+-- CSS
+-- HTML
+-- PokeAPI
 
 ## Installation
 
@@ -13,7 +24,7 @@ This app was created to help users find pokemon characters and their details. Th
 
 ## User Stories
 
-```As a pokemon fanatic, I want to use a digital library, to view a variety of pokemon characters, so that I can see more of their details in order to choose the ones that I want to add to my collection```
+`As a pokemon fanatic, I want to use a digital library, to view a variety of pokemon characters, so that I can see more of their details in order to choose the ones that I want to add to my collection`
 
 ## Low fidelity wireframe
 
@@ -25,11 +36,10 @@ This app was created to help users find pokemon characters and their details. Th
 
 ## API
 
-[PokeAPI](https://pokeapi.co/) is used to fetch data for the app. The API is used to fetch the list of pokemon characters and their details. 
+[PokeAPI](https://pokeapi.co/) is used to fetch data for the app. The API is used to fetch the list of pokemon characters and their details.
 
 ## MVP
 
 - [x] Fetch data from the API
 - [x] Render data on the page
 - [x] Create a search bar to search for pokemon characters
-
