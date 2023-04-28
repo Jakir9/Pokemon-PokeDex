@@ -1,5 +1,7 @@
 # PokeDex App
 
+Deployment: https://jakir9-pokemon-pokedex-app.netlify.app/
+
 ## Description
 
 This app was created to help users find pokemon characters and their details. The app is built with React and uses the [PokeAPI](https://pokeapi.co/) to fetch data. App lists the first 151 pokemons.
