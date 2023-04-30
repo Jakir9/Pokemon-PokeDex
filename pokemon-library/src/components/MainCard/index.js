@@ -5,8 +5,7 @@ function MainCard({ pokemon }) {
   return (
     <div>
       {/* <div className="search"> */}
-      <h1>Choose Your Pokemon:</h1>
-      {/* add a search function to be able to search by name/id of pokemon and have it render in this card */}
+      <h1>Choose your Pokemon:</h1>
       {/* </div> */}
       {/* <main> */}{" "}
       {/* get the info for the main pokemon and diplay this here */}

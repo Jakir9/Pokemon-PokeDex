@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios"; // Import the axios library to make API calls
-import "../App/index.css";
+import axios from "axios";
+import {
+  Center,
+  MainContainer,
+  SearchContainer,
+  CardContainer,
+  SearchBox,
+  SearchInput,
+} from "./styles.js";
 
 import Card from "../Card"; // Import the Card component
 // import MainCard from '../MainCard'; // Import the PokemonList component
@@ -37,23 +44,26 @@ function App() {
     pokemon.name.toLowerCase().startsWith(search.toLowerCase())
   );
 
+  //ToDO: Add flip animation
+  //ToDo: Add material UI
+
   return (
-    <main className="container">
+    <MainContainer>
       {/* <MainCard /> */}
       {/* Render the PokemonList component */}
-      <div className="search-container">
-        <h1 className="center">Choose your Pokemon</h1>
-        <label htmlFor="search" className="center">
-          Search:
-        </label>
+      <SearchContainer>
+        <Center>Choose your Pokemon:</Center>
+        <SearchBox htmlFor="search">Search: </SearchBox>
+
         <input type="text" id="search" value={search} onChange={handleSearch} />
-      </div>
-      <div className="card-container">
+        {/* <SearchInput type="text" value={search} onChange={handleSearch} /> */}
+      </SearchContainer>
+      <CardContainer>
         {filteredList.map((pokemon) => (
           <Card key={pokemon.id} pokemon={pokemon} /> // Map over the list of Pokemon data and render a Card component for each one
         ))}
-      </div>
-    </main>
+      </CardContainer>
+    </MainContainer>
   );
 }
 
