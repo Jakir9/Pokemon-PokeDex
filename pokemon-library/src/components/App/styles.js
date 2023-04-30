@@ -19,6 +19,7 @@ const SearchContainer = styled.div`
   font-size: 1.2rem;
 `;
 
+// main container for the cards
 const CardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -40,13 +41,14 @@ const SearchBox = styled.label`
 `;
 
 const SearchInput = styled.input`
-  padding: 0.5rem;
-  border: none;
+  padding: 0.1rem;
+  border: black 10px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
-  font-size: 1.2rem;
-  margin-right: 0.5rem;
-  width: 100%;
+  font-size: 1rem;
+  margin-right: 0;
+  width: 10%;
+  height: 10%;
 `;
 
 export {

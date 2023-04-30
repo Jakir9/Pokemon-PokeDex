@@ -28,7 +28,6 @@ function App() {
       const responses = await Promise.all(promises); // Wait for all promises to resolve
       // console.log(responses);
       const data = responses.map((response) => response.data); // Extract the data from each response
-      console.log(data);
       setPokemonList(data); // Set the state with the list of Pokemon data
     };
     getPokemonList(); // Call the function to get the list of Pokemon
@@ -49,14 +48,12 @@ function App() {
 
   return (
     <MainContainer>
-      {/* <MainCard /> */}
-      {/* Render the PokemonList component */}
       <SearchContainer>
         <Center>Choose your Pokemon:</Center>
+
         <SearchBox htmlFor="search">Search: </SearchBox>
 
-        <input type="text" id="search" value={search} onChange={handleSearch} />
-        {/* <SearchInput type="text" value={search} onChange={handleSearch} /> */}
+        <SearchInput type="text" value={search} onChange={handleSearch} />
       </SearchContainer>
       <CardContainer>
         {filteredList.map((pokemon) => (
